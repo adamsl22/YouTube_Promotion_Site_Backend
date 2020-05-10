@@ -3,6 +3,7 @@ class CreateDemos < ActiveRecord::Migration[6.0]
     create_table :demos do |t|
       t.string :demo_category
       t.string :demo_url
+      t.integer :member_id
 
       t.timestamps
     end

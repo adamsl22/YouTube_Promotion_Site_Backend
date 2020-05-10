@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2020_05_09_132644) do
   create_table "demos", force: :cascade do |t|
     t.string "demo_category"
     t.string "demo_url"
+    t.integer "member_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
