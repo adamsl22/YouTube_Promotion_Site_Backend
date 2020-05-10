@@ -27,6 +27,9 @@ ActiveRecord::Schema.define(version: 2020_05_09_132644) do
     t.string "gen_category"
     t.string "summary"
     t.string "image_url"
+    t.string "bg_color"
+    t.string "font_color"
+    t.string "font"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
